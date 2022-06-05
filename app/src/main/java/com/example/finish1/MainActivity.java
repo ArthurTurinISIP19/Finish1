@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         indicator.attachToPager(viewPager);
     }
 
-//    public void SignInClick(View view) {
-//        Intent intent = new Intent(MainActivity.this, SignIn.class);
-//        startActivity(intent);
-//    }
-//
-//    public void SignUpClick(View view) {
-//        Intent intent = new Intent(MainActivity.this, SignUp.class);
-//        startActivity(intent);
-//    }
+    public void SignInClick(View view) {
+        Intent intent = new Intent(MainActivity.this, SignIn.class);
+        startActivity(intent);
+    }
+
+    public void SignUpClick(View view) {
+        Intent intent = new Intent(MainActivity.this, SignUp.class);
+        startActivity(intent);
+    }
 }
